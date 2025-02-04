@@ -2,15 +2,22 @@ body {
     background-color: antiquewhite;
 }
 
-
 .caixa {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 5px solid black;
     padding: 25px;
     justify-items: space-between;
     text-align: center;
     gap: 90px;
+}
+
+.foto {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
 }
 
 img {
@@ -19,6 +26,19 @@ img {
     height: 300px;
     object-fit: cover;
     width: 300px;  
+    text-align: center;
+}
+
+.lista {
+    text-align: center;
+} 
+
+.bolinha {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 10px;
+    object-fit: cover;
+    width: 10px; 
 }
 
 .caixa2 {
